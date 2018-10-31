@@ -44,4 +44,21 @@ public class traversehashmap {
 		
 	}
 
+/*	输出:使用Map.keySet()遍历key和value
+	key:111,value:aaa
+	key:222,value:bbb
+	key:333,value:ccc
+使用Map.entrySet(),使用Iterator遍历key和value
+	key:111,value:aaa
+	key:222,value:bbb
+	key:333,value:ccc
+	通过Map.entry，遍历key和value
+	key:111,value:aaa
+	key:222,value:bbb
+	key:333,value:ccc
+	通过Map.values遍历value,但不能遍历key
+	value:aaa
+	value:bbb
+	value:ccc*/
+
 }
